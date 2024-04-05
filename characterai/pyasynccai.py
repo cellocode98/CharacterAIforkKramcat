@@ -18,7 +18,7 @@ class PyAsyncCAI:
         else: sub = 'beta'
 
         self.session = tls_client.Session(
-            client_identifier='chrome112'
+            client_identifier='firefox-120'
         )
 
         setattr(self.session, 'url', f'https://{sub}.character.ai/')
